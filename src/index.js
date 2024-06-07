@@ -1,17 +1,24 @@
+//index.js will tell using dom library functions that in the class named
+//root will be created html.that html will be created by App.js
+
+
+// the code below will be in javascript
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root=ReactDOM.createRoot(document.getElementById("root"));
+
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+<React.StrictMode>
+  <App/>
+</React.StrictMode>
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+)
+
+//IN  root div we shall create something
+
+
+

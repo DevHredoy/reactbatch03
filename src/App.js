@@ -1,12 +1,18 @@
-import "./App.css";
-import ProfileDropdown from "./ProfileDropdown";
+/* 
+this file is the home of all components.
 
-function App() {
+
+
+
+
+*/
+
+import React from 'react'
+
+const App = () => {
   return (
-    <div className="App">
-      <ProfileDropdown />
-    </div>
-  );
+    <div>sokal a call dio!!!</div>
+  )
 }
 
-export default App;
+export default App
