@@ -1,30 +1,57 @@
 
-import React, { useState } from 'react'
+import React, { Component} from 'react'
 import { Button } from 'antd'
 
-const App = () => {
- 
- let [num,setNumber]=useState(10);
+class App extends Component {
 
-  
 
-  return (
-    <div>sokal a call dio,shuye porbo!!!
+
+constructor(){
+super();
+this.number=10;
+
+}
+
+ increment(){
+
+this.number=this.number+1;
+
+ }
+ decrement(){
+this.number=this.number-1;
+
+ }
+
+
+
+
+render(){
+
+
+return(
+
+
 <div>
 
-  <Button onClick={()=>{
-    
-    setNumber(--num);
-    console.log("clicked in minus button:",num)}}>
-    -
-  </Button>
-    {num}
-    <Button onClick={()=>{setNumber(++num);
-    console.log("clicked in minus button:",num)}}>+</Button>
+<Button onClick={this.decrement}>
+  -
+</Button>
+{this.number}
+<Button onClick={this.increment}>+</Button>
+
 </div>
 
-    </div>
-  )
+
+
+
+)
+
+}
+
+
+
+
+
 }
 
 export default App
