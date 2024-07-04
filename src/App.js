@@ -1,12 +1,7 @@
 import "./App.css";
-import ProfileDropdown from "./ProfileDropdown";
 
 function App() {
-  return (
-    <div className="App">
-      <ProfileDropdown />
-    </div>
-  );
+  return <div className="App"></div>;
 }
 
 export default App;
