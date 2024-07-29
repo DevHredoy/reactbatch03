@@ -6,7 +6,6 @@ const App = () => {
  
  let [num,setNumber]=useState(10);
 
-  
 
   return (
     <div>sokal a call dio,shuye porbo!!!
