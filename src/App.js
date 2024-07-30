@@ -7,6 +7,20 @@ const App = () => {
  let [num,setNumber]=useState(10);
 
 
+
+const nicks=["mamu","kakke","major"];
+
+
+const modNicks=nicks.map((name)=>{
+
+console.log("the name is before :",name);
+return(name+"san"
+)
+ 
+})
+
+console.log("the new array is now :",modNicks)
+
   return (
     <div>sokal a call dio,shuye porbo!!!
 <div>
