@@ -5,62 +5,48 @@ const App = () => {
   // let joyFriend3 = "afnan";
   // let joyFriend4 = "hasib";
   // let joyFriend5 = "pritom";
-// console.log("joy friend 0 :", joyFriend0);
- // console.log("joy friend 1:", joyFriend1);
-// console.log("joy friend 2:", joyFriend2);
-// console.log("joy friend 3:", joyFriend3);
-// console.log("joy friend 4:", joyFriend4);
-// console.log("joy friend 5:", joyFriend5);
+  // console.log("joy friend 0 :", joyFriend0);
+  // console.log("joy friend 1:", joyFriend1);
+  // console.log("joy friend 2:", joyFriend2);
+  // console.log("joy friend 3:", joyFriend3);
+  // console.log("joy friend 4:", joyFriend4);
+  // console.log("joy friend 5:", joyFriend5);
 
-  let joyVaibondhura = ["arif", "ansar", "sajid", "afnan", "hasib", "pritom"];
-for (let i = 0; i < joyVaiFriends.length; i++) {
-    console.log("joy vai friend no:", i, joyVaibondhura[i]); }
+  let joyVaibondhura = [
+    "arif",
+    "ansar",
+    90,
+    "sajid",
+    "afnan",
+    "hasib",
+    "pritom",
+    true,
+    undefined,
+    1993849340978390489384,
+  ];
 
+  for (let i = 0; i < joyVaibondhura.length; i++) {
+    console.log(
+      "joy vai friend no:",
+      i,
+      joyVaibondhura[i],
+      typeof joyVaibondhura[i]
+    );
+  }
 
+  // let arif = { name: "arif", age: 21 };
+  // let ansar = { name: "ansar", age: 22 };
 
+  // let sajid = { name: "sajid", age: 28 };
 
+  // let afnan = { name: "afnan", age: 29 };
+  // let afnanCar = "";
 
-let arif={"name":"arif",
-        "age":21
-}
-;
-let ansar={"name":"ansar",
-  "age":22
-}
+  // let hasib = { name: "hasib", age: 18 };
 
+  // let pritom = { name: "pritom", age: 18 };
 
-let sajid={"name":"sajid",
-  "age":28
-}
-
-
-let afnan={"name":"afnan",
-  "age":29
-}
-
-let afnanCar="audi";
-
-let hasib={"name":"hasib",
-  "age":18
-}
-
-let pritom={"name":"pritom",
-  "age":18
-}
-
-let joyVaiFriends=[arif,ansar,sajid,afnan,hasib,pritom];
-
-
-
-
-
-
-
-
-
-
-
-
+  // let joyVaiFriends = [arif, ansar, sajid, afnan, hasib, pritom];
 
   return;
 };
