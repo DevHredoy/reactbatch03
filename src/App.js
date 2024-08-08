@@ -1,39 +1,31 @@
 const App = () => {
-  // about joy vai
-  let joyVaiName = "joy";
-  let joyVaiAge = 24;
-  let joyVaiPlace = "nikunja";
-  let joyVaiProfession = "software developer";
+  // let joyFriend0 = "arif";
+  // let joyFriend1 = "ansar";
+  // let joyFriend2 = "sajid";
+  // let joyFriend3 = "afnan";
+  // let joyFriend4 = "hasib";
+  // let joyFriend5 = "pritom";
 
-  let RoyVaiName = "joy";
-  let RoyVaiAge = 24;
-  let RoyVaiPlace = "nikunja";
-  let RoyVaiProfession = "software developer";
+  // console.log("joy friend 0 :", joyFriend0);
 
-  // imagine there are 100 variables
+  // console.log("joy friend 1:", joyFriend1);
 
-  const joyVaiProfile = {
-    name: "joy",
-    age: 24,
-    Place: "nikunja",
-    Profession: "software developer",
-  };
+  // console.log("joy friend 2:", joyFriend2);
 
-  const joyVaiProfileJson = {
-    "name": "joy",
-    "age": 24,
-    "Place": "nikunja",
-    "Profession": "software developer",
-  };
+  // console.log("joy friend 3:", joyFriend3);
 
-  const RoyVaiProfile = {
-    name: "Roy",
-    age: 26,
-    Place: "shantinagar",
-    Profession: "junior software developer",
-  };
+  // console.log("joy friend 4:", joyFriend4);
 
-  console.log("joy vai name:", joyVaiProfile.name);
+  // console.log("joy friend 5:", joyFriend5);
+
+
+
+let joyVaiFriends=["arif","ansar","sajid","afnan","hasib","pritom"];
+
+
+
+
+
 
   return;
 };
