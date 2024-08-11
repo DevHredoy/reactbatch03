@@ -9,13 +9,11 @@ const App = () => {
     alert("one clicked");
   };
 
-  // danger_button.addEventListener("click", clkActionOne);
+  danger_button.addEventListener("click", clkActionOne);
 
   return (
     <div>
-      <button id="one" onClick={clkActionOne}>
-        l
-      </button>
+      <button id="one">l</button>
     </div>
   );
 };
