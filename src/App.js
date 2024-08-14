@@ -57,7 +57,7 @@ const App = () => {
   console.log("myShirts are:", myShirts);
 */
 
-  // slice demo
+  // slice demos
 
   let myFriends = [
     "sharif",
