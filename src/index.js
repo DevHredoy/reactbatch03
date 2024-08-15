@@ -1,15 +1,8 @@
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import ReactDOM from "react-dom/client";
+import "./index.css";
 
-const root=ReactDOM.createRoot(document.getElementById("root"));
+import Champ from "./Champ";
 
-root.render(
+const root = ReactDOM.createRoot(document.getElementById("root"));
 
-  <App/>
-)
-
-
-
-
-
+root.render(<Champ />);
