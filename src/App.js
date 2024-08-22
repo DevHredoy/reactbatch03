@@ -28,6 +28,13 @@ let result2=chicken?beef:goat;
 console.log("value of result2",result2)
 
 
+//DEMO OF shortcircuit somehow it is related to 
+chicken="chicken"
+let result3=chicken && goat;
+//guess the answer
+console.log("value of result 3 : ",result3)
+
+
 
   return <div>sokal a call dio,shuye porbo!!!</div>;
 };
