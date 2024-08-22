@@ -34,7 +34,8 @@ let result3=chicken && goat;
 //guess the answer
 console.log("value of result 3 : ",result3)
 
-
+// if there are multiple expression with this operator the result will be "a"
+//a will be that value the left expression of which is true,a could contain a false value.
 
   return <div>sokal a call dio,shuye porbo!!!</div>;
 };
